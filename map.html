@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map - Our Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <nav>
+        <ul>
+            <li><button id="theme-toggle"><img id="theme-icon" src="/assets/sun.png" alt="Toggle Theme"></button></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="team.html">Team Members</a></li>
+            <li><a href="map.html">Interactive Map</a></li>
+        </ul>
+    </nav>
+    <div id="content" class="contain">
+        <section id="map-container" class="section map">
+            <h1>Our Location</h1>
+            <div id="map" style="height: 400px; width: 100%;"></div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <footer>
+        <p>&copy; 2024 Our Team. All rights reserved.</p>
+    </footer>
+    </body>
+    </html>

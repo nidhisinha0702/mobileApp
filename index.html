@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeamConnect</title>
+    <p style="background-image: url('/assets/bg.jpg');"></p>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body id="body">
+    <nav>
+        <ul>
+            <li><button id="theme-toggle"><img id="theme-icon" src="/assets/sun.png" alt="Toggle Theme"></button></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="team.html">Team Members</a></li>
+            <li><a href="map.html">Interactive Map</a></li>
+        </ul>
+    </nav>
+
+    <div id="content" class ="contain">
+        <section id="home" class="section home">
+            <h1>Welcome to TeamConnect</h1>
+        </section>
+        <section id="team" class="section team">
+            <h1>Meet the Team</h1>
+            <p>Get to know the amazing people behind our projects.</p>
+            <a href="team.html" class="team-link">Learn More</a>
+        </section>
+        <section id="map" class="section map">
+            <h1>See where our team members belong</h1>
+            <p>Explore our team's locations and find out more about them</p>
+            <a href="map.html" class="map-link">View Map</a>
+        </section>
+        <section id="additional-projects" class="section projects">
+            <h1>Explore Our Previous Projects</h1>
+            <p>Check out our additional work and projects.</p>
+            <a href="devicedemo/index.html" class="project">View Projects</a>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 Our Team. All rights reserved.</p>
+</footer>
+</html>

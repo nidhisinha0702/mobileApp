@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Phone Simulator</title>
+</head>
+<body>
+    <div class="phone">
+        <div class="screen" id="login-screen"></div>
+        <div class="screen" id="home-screen">
+            <h1>Home Screen</h1>
+            <div class="apps">
+                <div class="app" id="clock-app">Clock</div>
+                <div class="app" id="settings-app">Settings</div>
+                <div class="app" id="message-app">Messages</div>
+            </div>
+        </div>
+        <div class="screen" id="clock-screen">
+            <h1>Clock</h1>
+            <p id="current-time"></p>
+            <button id="back-to-home-clock">Back to Home</button>
+        </div>
+        <div class="screen" id="settings-screen">
+            <h1>Settings</h1>
+            <pre id="phone-specs"></pre>
+            <button id="back-to-home-settings">Back to Home</button>
+        </div>
+        <div class="screen" id="message-screen">
+            <h1>Messages</h1>
+            <div class="chat-window" id="chat-window"></div>
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-button">Send</button>
+            <button id="close-button">Delete Chat</button>
+            <button id="back-to-home-messages">Back to Home</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
